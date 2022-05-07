@@ -1,141 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lato:wght@300;400&family=Manrope:wght@300;600;800&family=Outfit:wght@400;700&family=Overpass:wght@300;400;500;600&family=PT+Sans&family=Poppins&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/traffic.css">
+    <title>Interactive pricing component
+    </title>
+</head>
+<body>
+    <!-- SECTION 1 -->
+    <section class="section1">
+        <h1 class="sec1h1">
+            Simple, traffic-based pricing
+        </h1>
+        <h2 class="sec1h2">
+            Sign-up for our 30-day trial. No credit card required.
+        </h2>
+        <div class="sec1img">
+            <img src="/imagenes/icon-slider.svg" alt="" class="pattern">
+        </div>
+    </section>
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Manrope', sans-serif;
-}
+    <!-- SECTION 2 -->
 
-body{
-    background: hsl(230, 100%, 99%);
-}
+    <section class="section2">
+        <div class="section2header">
+            <h1 class="sec2h1">
+                100K PAGEVIEWS
+            </h1>
+            <h2 class="sec2h2">
+                <span class="h2-span">$16.00</span>
+                /month
+            </h2>
+        </div>
+        <div class="sec2divisor">
+           <img src="/imagenes/icon-check.svg" alt="" class="slider">
+        </div>
+    </section>
 
-.section1{
-    width: 100%;
-    height: 60vh;
-    background-image: url(/imagenes/bg-pattern.svg);
-}
+    <!-- SECTION 3 -->
 
-.sec1h1{
-    font-size: 28px;
-    padding-top: 5rem;
-    text-align: center;
-}
-
-.sec1h2{
-    font-size: 15px;
-    font-weight: 600;
-    padding-top: 10px;
-    text-align: center;
-    color: #999898;
-}
-
-.sec1img{
-    width: 30%;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    bottom: 7rem;
-}
-
-/* SECTION 2 */
-
-.section2header{
-    width: 40%;
-    height: 50vh;
-    margin: 0 auto;
-    display: flex;
-    padding: 2rem 2rem;
-    justify-content: space-between;
-    position: relative;
-    bottom: 9rem;
-    border-radius: 10px;
-    background: #fff;
-    border: 1px solid red;
-}
-
-.sec2h1{
-    font-size: 15px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    padding-top: 18px;
-    color: #999898;
-}
-
-.sec2h2{
-    font-size: 15px;
-    font-weight: 800;
-    text-align: center;
-    letter-spacing: 2px;
-    position: relative;
-    bottom: 10px;
-    color: #999898;
-}
-
-/* .sec2hr{
-    border: 1px solid red;
-} */
-
-
-.h2-span{
-    font-size: 40px;
-    color: #000;
-}
-
-.sec2divisor{
-    width: 33%;
-    height: 12px;
-    position: relative;
-    bottom: 21rem;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 30px;
-    background-color: hsl(174, 77%, 80%);
-}
-
-.slider{
-    width: 42px;
-    height: 40px;
-    position: relative;
-    bottom: 15px;
-    padding: 10px;
-    border-radius: 50%;
-    background: hsl(174, 86%, 45%);
-}
-
-/* SECTION 4 */
-
-.sec3container{
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 1rem;
-    margin: 0 auto;
-    position: relative;
-    bottom: 18rem;
-}
-
-.sec3h1{
-    font-size: 16px;
-    font-weight: 800;
-    padding-right: 19px;
-    color: #999898;
-}
-
-.sec3h2{
-    font-size: 16px;
-    font-weight: 800;
-    padding-right: 19px;
-    color: #999898;
-}
-
-.sec3h3{
-    font-size: 12px;
-    font-weight: 800;
-    padding: 5px;
-    margin-right: 10px;
-    border-radius: 10px;
-    color: #ff8c66;
-    background: #fadbd0;
-}
+    <section class="section3">
+        <div class="sec3container">
+            <h1 class="sec3h1">Monthly Billing</h1>
+            <h2 class="sec3h2">Yearly Billing</h2>
+            <h3 class="sec3h3">25% discount</h3>
+        </div>
+    </section>
+</body>
+</html>
