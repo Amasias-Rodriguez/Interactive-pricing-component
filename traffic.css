@@ -14,7 +14,6 @@ body{
 .section1{
     width: 100%;
     height: 60vh;
-    border-bottom-left-radius: 70px;
     background-image: url(/imagenes/bg-pattern.svg);
 }
 
@@ -30,6 +29,14 @@ body{
     padding-top: 10px;
     text-align: center;
     color: #999898;
+}
+
+.sec1img{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 7rem;
 }
 
 /* SECTION 2 */
@@ -66,6 +73,10 @@ body{
     color: #999898;
 }
 
+/* .sec2hr{
+    border: 1px solid red;
+} */
+
 
 .h2-span{
     font-size: 40px;
@@ -73,6 +84,58 @@ body{
 }
 
 .sec2divisor{
-    background-image: url(/imagenes/icon-slider.svg);
+    width: 33%;
+    height: 12px;
+    position: relative;
+    bottom: 21rem;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    background-color: hsl(174, 77%, 80%);
 }
 
+.slider{
+    width: 42px;
+    height: 40px;
+    position: relative;
+    bottom: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background: hsl(174, 86%, 45%);
+}
+
+/* SECTION 4 */
+
+.sec3container{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    margin: 0 auto;
+    position: relative;
+    bottom: 18rem;
+}
+
+.sec3h1{
+    font-size: 16px;
+    font-weight: 800;
+    padding-right: 19px;
+    color: #999898;
+}
+
+.sec3h2{
+    font-size: 16px;
+    font-weight: 800;
+    padding-right: 19px;
+    color: #999898;
+}
+
+.sec3h3{
+    font-size: 12px;
+    font-weight: 800;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #ff8c66;
+    background: #fadbd0;
+}
